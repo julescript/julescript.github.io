@@ -166,7 +166,7 @@ footer{
   
   .modal-window>div {
       overflow: auto;
-    max-width: 60%;
+    max-width: 70%;
     margin: 40px auto;
     position: relative;
     height: calc(100% - 100px);
