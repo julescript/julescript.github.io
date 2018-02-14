@@ -231,8 +231,9 @@ footer{
   }
 
   .skills-div > p {
-      font-size: 13px;
-      margin-top: 30px;
+      font-size: 1em;
+      margin-top: 0px;
+       margin-bottom: 0px;
       color: white;
       width: 100%;
     background-color: rgb(121,60,154);
@@ -241,10 +242,7 @@ footer{
   }
 
 
-  .skills-div > p > span {
-    width: 100%;
-    background-color: rgb(121,60,100);
-    border-radius: 5px 5px 0 0 ;
+  .skills-div > p > span{
     font-weight: bold;
 }
 
