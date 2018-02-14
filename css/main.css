@@ -98,7 +98,6 @@ footer{
     
     padding: 0 20px;
     margin-top: 20px;
-    margin-bottom: 70px;
     border-radius: 15px 0 0 15px;
 }
 
@@ -128,13 +127,14 @@ footer{
 }
 
 
+
 #name{
     color: #00c8c8;
 }
 
 .div-title{
     line-height: 1.5em;
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bolder;
   }
 
@@ -169,8 +169,8 @@ footer{
     max-width: 70%;
     margin: 40px auto;
     position: relative;
-    height: calc(100% - 100px);
-    padding: 2rem;
+    height: calc(95% - 40px);
+    padding: 5%;
     background: #fff;
     color: #444;
     border-radius: 15px 15px 0 0 ;
@@ -183,19 +183,19 @@ footer{
   }
   
   .modal-close {
-    color: #aaa;
+    color: rgb(121,60,154);
     line-height: 50px;
     font-size: 80%;
     position: absolute;
     right: 0;
     text-align: center;
     top: 0;
-    width: 70px;
+    width: 50px;
     text-decoration: none;
   }
   
   .modal-close:hover {
-    color: #000;
+    color: ##00c8c8;
   }
   
   .modal-window h1 {
@@ -206,24 +206,40 @@ footer{
 
   .container {
     width: 100%;
-    background-color: #ddd;
-    border-radius: 3px; 
+    background-color: hsl(0, 0%, 93%);
+    border-radius: 0 5px 5px 5px;
   }
   
   .skills {
     text-align: right;
-    padding-right: 20px;
-    border-radius: 3px;
-    line-height: 40px;
+    padding-right: 10px;
+    border-radius: 0 5px 5px 5px;
+    line-height: 37px;
     color: white;
+    font-weight: bold;
+
   }
 
   .skills-div > p {
-      font-size: 90%;
-      margin-bottom: 7px;
+      font-size: 80%;
+      margin-bottom: 10px;
+      margin-top: 30px;
+      color: white;
+
   }
 
-.html {width: 90%; background-color: #4CAF50;}
-.css {width: 80%; background-color: #2196F3;}
-.js {width: 65%; background-color: #f43675;}
-.php {width: 60%; background-color: #808080;}
+
+  .skills-div > p > span {
+    width: auto;
+    background-color: rgb(121,60,154);
+    border-radius: 5px 5px 0 0 ;
+    font-weight: bold;
+    padding:10px 20px;
+}
+
+.html {width: 90%; background-color: #00c8c8;}
+.css {width: 80%; background-color: #00c8c8;}
+.js {width: 70%; background-color: #00c8c8;}
+.ionic {width: 75%; background-color: #00c8c8;}
+.java {width: 65%; background-color: #00c8c8;}
+.ai {width: 85%; background-color: #00c8c8;}
