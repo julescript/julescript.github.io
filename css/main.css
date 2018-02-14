@@ -18,11 +18,12 @@ html{
 body{
     background-color: hsl(0, 0%, 95%);
     margin: 0;
-    padding: 0;
+    padding: auto;
     height: 100%;
     width: 100%;
     position: relative;
 }
+
 
 footer{
     background-color: #00c8c8;
@@ -53,19 +54,6 @@ footer{
     position: fixed;
     left:0;
 }
-
-.title{
-    position: static;
-    width: 50%;
-    box-shadow: 7px -4px 60px rgba(0, 0, 0, 0.1);
-    float: right;
-    text-align: right;
-    background-color: white;
-    padding: 4% 20px;
-    margin-top: 20vh;
-    border-radius: 15px 0 0 15px;
-}
-
 .time{
     position: static;
     width: 50%;
@@ -83,11 +71,31 @@ footer{
     border-radius: 15px 0 0 15px;
 }
 
-.button{
-    position: static;
+.container-right{
     width: 50%;
-    box-shadow: 7px -4px 60px rgba(0, 0, 0, 0.1);
     float: right;
+    height: calc(100% - 50px);
+    display: table;
+    }
+
+.container-right >  .child{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.title{
+    box-shadow: 7px -4px 60px rgba(0, 0, 0, 0.1);
+    text-align: right;
+    background-color: white;
+    padding: 4% 20px;
+    margin-top: 0;
+    border-radius: 15px 0 0 15px;
+}
+
+
+.button{
+    box-shadow: 7px -4px 60px rgba(0, 0, 0, 0.1);
     text-align: right;
     background: rgb(80,86,169);
     background: -moz-linear-gradient(top, rgb(80,86,169) 1%, rgb(64,95,176) 100%);
@@ -96,7 +104,7 @@ footer{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5056a9', endColorstr='#405fb0',GradientType=0 );
     color: white;
     
-    padding: 0 20px;
+    padding: 1px 20px;
     margin-top: 20px;
     border-radius: 15px 0 0 15px;
 }
