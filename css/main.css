@@ -33,7 +33,6 @@ footer{
     text-align: center;
     max-height: 50px;
     height: 50px;
-    z-index: 99999999;
     bottom:0;
     width:100%;
     position:fixed;
@@ -107,6 +106,23 @@ footer{
     color: white;
     
     padding: 1px 20px;
+    margin-top: 20px;
+    border-radius: 15px 0 0 15px;
+}
+
+.btn-custom{
+    box-shadow: 7px -4px 60px rgba(0, 0, 0, 0.1);
+    text-align: right;
+    background: rgb(80,86,169);
+    background: -moz-linear-gradient(top, rgb(80,86,169) 1%, rgb(64,95,176) 100%);
+    background: -webkit-linear-gradient(top, rgb(80,86,169) 1%,rgb(64,95,176) 100%);
+    background: linear-gradient(to bottom, rgb(80,86,169) 1%,rgb(64,95,176) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5056a9', endColorstr='#405fb0',GradientType=0 );
+    color: white;
+    width: 100%;
+    text-align: right;
+    font-weight: bold;
+    padding: 10px 20px;
     margin-top: 20px;
     border-radius: 15px 0 0 15px;
 }
@@ -205,7 +221,7 @@ footer{
   }
   
   .modal-close:hover {
-    color: ##00c8c8;
+    color: #00c8c8;
   }
   
   .modal-window h1 {
@@ -214,7 +230,7 @@ footer{
   }
 
 
-  .container {
+  .container-skills {
     width: 100%;
     background-color: hsl(0, 0%, 93%);
     border-radius: 0 0 5px 5px;
@@ -222,7 +238,7 @@ footer{
   
   .skills {
     text-align: right;
-    padding-right: 10px;
+    padding-right: 10px !important;
     border-radius: 0 0 5px 5px;
     line-height: 37px;
     color: white;
@@ -230,8 +246,9 @@ footer{
 
   }
 
-  .skills-div > p {
+  .modal-body > p {
       font-size: 1em;
+      padding: 5px 5px 5px 10px;
       margin-top: 20px;
        margin-bottom: 0px;
       color: white;
@@ -242,7 +259,7 @@ footer{
   }
 
 
-  .skills-div > p > span{
+  .modal-body > p > span{
     font-weight: bold;
 }
 
