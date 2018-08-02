@@ -47,6 +47,12 @@ body{
     background-color: rgb(82, 85, 169);
 }
 
+.divlist a:active{
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(82, 85, 169);
+}
+
 footer{
     background-color: #00c8c8;
     font-weight: bold;
