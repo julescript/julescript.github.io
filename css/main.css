@@ -257,7 +257,7 @@ footer{
 }
 
 .logo{
-    content: url(../logo.svg);
+    content: url(../assets/logo.svg);
     width: auto;
     height: calc(100% - 48px);
     border: 0;
